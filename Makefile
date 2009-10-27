@@ -1,7 +1,7 @@
 # vim: smarttab noexpandtab tabstop=4 shiftwidth=4
 
 CFLAGS=-O3
-LDFLAGS=-lm
+LDFLAGS=-lm -lpthread
 CC=cc
 LD=cc
 
